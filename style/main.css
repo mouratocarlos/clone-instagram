@@ -1,0 +1,146 @@
+/* Resetando as configurações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+:root {
+    --grey: rgb(243,243,243);
+    --white: #ffffff;
+    --light-grey: lightgrey;
+    --blue: #0095f6;
+}
+
+body {
+    width: 100px;
+    min-height: 100vh;
+    background-color: var(--grey);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    width: 450%;
+    margin-left: 600%;
+}
+
+.instagram-login {
+    margin-left: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200%;
+    min-height: 3rem;
+}
+
+.login-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 300%;
+    padding: 10px;
+    border: 1px solid --light-grey;
+}
+
+.login-group .instagram-logo {
+    width: 50%;
+}
+
+.login-group .profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.login-group .login-account {
+    margin-bottom: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.login-group .remove-account {
+    color: var(--blue);
+    margin-top: 5px;
+}
+
+.login-group:nth-child(1) {
+    min-height: 50px;
+}
+
+.login-group:nth-child(2) {
+    margin-top: 20px;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);    
+    margin-bottom: 5px;
+}
+
+.link-blue {
+    color: var(--blue);
+}
+
+.link-blue:hover {
+    cursor: pointer;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300%;
+    padding: 10px;
+}
+
+.image-app {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.app-download {
+    height: 4.15rem;
+    width: 9.9rem;
+    background-size: cover;
+}
+
+.get-the-app p {
+    font-weight: bold;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('/img/play-store.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('/img/app-store.png');
+    max-height: 2.9rem;
+}

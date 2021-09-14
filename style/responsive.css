@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 1200px) {
+    .instagram-phone {
+        margin-left: 200%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .instagram-phone {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .instagram-phone {
+        margin-left: -500%;
+    }
+}
